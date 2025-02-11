@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+header a {
+    position: absolute;
+    inset-inline-end: 20px;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    background: white;
+    color: #0052D4;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Data Table */
+.data-box {
+    margin: 20px auto;
+    inline-size: 90%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    inline-size: 100%;
+    border-collapse: collapse;
+}
+
+.container th, .container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.container th {
+    background: #0052D4;
+    color: white;
+}
+
+/* Warning Box */
+.warning {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    background: rgba(0, 51, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    inline-size: 90%;
+}
+
+/* Chart Container */
+.chart-container {
+    inline-size: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Map Section */
+.peta {
+    inline-size: 90%;
+    margin: 20px auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.peta h2 {
+    margin-block-end: 10px;
+    color: #0052D4;
+}
+
+.rekomendasi {
+    inline-size: 90%;
+    margin: 20px auto;
+    text-align: start;
+    background: rgb(167, 158, 175);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-block-start: 20px;
+}
